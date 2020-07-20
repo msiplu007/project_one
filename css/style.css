@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+/* End common css code*/
+#top-header{
+    background:#292a49 ;
+    border-bottom:.5px solid #e0e0e0 ;
+}
+#top-header p{
+  color:#fff;
+  font-size:14px ;
+  padding-top:10px ;
+}
+#top-header ul li{
+  float:left;
+  padding-top:8px;
+  padding-right:8px;
+  padding-left:8px;
+  color:#fff;
+}
+#manubar{
+  background:#292a49 ;
+}
+#manubar img{
+  padding:10px ;
+}
+#manubar .manubar-part ul li {
+  float:left ;
+  color:#fff;
+  padding:15px 10px ;
+  font-family:'Roboto Condensed', sans-serif;
+}
+#manubar .manubar-part  i{
+  font-size:12px ;
+  padding-top:2px  ;
+}
+#manubar .login-part{
+  color:#fff;
+  padding-top:12px ;
+  font-weight:bold ;
+  font-size:16px;
+}
+#manubar .login-part p{
+  padding-left:12px ;
+}
+#all-category{
+  position:relative ;
+  background:#292a49 ;
+  padding-top:15px ;
+}
+#all-category .category-part p{
+  padding:10px 15px ;
+  background:#e61e00 ;
+  font-family: 'Roboto Condensed', sans-serif;
+  width:60%;
+  font-size:18px ;
+  font-weight:bold ;
+  border-top-left-radius:10px ;
+  border-top-right-radius:10px ;
+}
+#all-category .input-part .input-field{
+  width:70%;
+  border: none;
+  border-radius:25px ;
+  height:40px;
+  padding-top:20px ;
+  padding-left:20px ;
+}
+#all-category .div{
+  height:40px;
+  width:100px ;
+  position:absolute ;
+  left:60%;
+  border: none;
+  border-radius:25px ;
+  bottom:36% ;
+  background:#c6c6c6 ;
+}
+#all-category .div i{
+  padding-top:10px ;
+  padding-left:40px ;
+  font-size:20px ;
+}
+#all-category .cart-part i{
+  color:#fff;
+  padding-top:10px ;
+  padding-right:10px ;
+  padding-left:10px ;
+  font-size:30px ;
+}
+#all-category .cart-part i:hover{
+  color:#e61e00 ;
+  transition:all linear .4s ;
+}
+#banner-part{
+position:relative ;
+}
+
+#banner-part .sub-manu{
+  background:#f5f5f5;
+}
+#banner-part .sub-manu ul  a{
+
+  text-decoration:none ;
+  list-style:none ;
+  font-family: 'Roboto Condensed', sans-serif;
+  color:#414141;
+
+}
+.carousel-indicators li{
+
+}
+#banner-part .sub-manu ul li{
+  padding:10px  ;
+
+
+}
+#banner-part .sub-manu ul li:hover{
+  color:#f20000 ;
+  transition:all linear .4s ;
+  background:#dedede ;
+}
+
+
+#banner-part .slider-part .first_slide{
+  background:url(../images/slider-1-950x450.jpg) no-repeat center ;
+  background-size:cover ;
+  height:400px ;
+}
+#banner-part .slider-part .secound_slide{
+  background:url(../images/slider-2-950x450.jpg) no-repeat center ;
+  background-size:cover ;
+  height:400px ;
+}
+#banner-part .slider-part .third_slide{
+  background:url(../images/slider-3-950x450.jpg) no-repeat center ;
+  background-size:cover ;
+  height:400px ;
+}
+#banner-part .slider-part .forth_slide{
+  background:url(../images/slider-1-950x450.jpg) no-repeat center ;
+  background-size:cover ;
+  height:400px ;
+}
+#banner-part .slider-part .fifth_slide{
+  background:url(../images/slider-3-950x450.jpg) no-repeat center ;
+  background-size:cover ;
+  height:400px ;
+}
+#banner-part .slider-part {
+  padding-top:15px ;
+}
+
+#banner-part .img-last .picture1 img{
+  padding-bottom:20px ;
+  padding-top:15px ;
+
+}
+ #banner-part .last-part{
+   position: absolute;
+   left:20%;
+   top:80%;
+   height:100px ;
+   width:70%;
+   background:#000 ;
+ }
+ #pricing-part{
+   padding:40px;
+   background:#ebebeb;
+ }
+  .basic-part h3{
+    color:#fff ;
+  }
+  .basic-part .basic-detail{
+    padding-right:10px ;
+    background:#5f861f;
+    padding:20px ;
+    border-top-left-radius:40px ;
+    border-bottom-right-radius:40px ;
+
+  }
+  .basic-part .basic-detail:hover{
+  transform:translateY(-20px) ;
+  transition:all linear .4s ;
+  }
+   #pricing-part .basic-part .basic-detail h3:hover{
+    color:#2cb849 ;
+    transition:all linear .4s ;
+  }
+
+ .bar{
+   background:#fff;
+   height:7px;
+
+ }
+ #pricing-part .basic-part .basic-detail ul li{
+   padding-top:20px ;
+   color:#fff;
+   font-weight:bold ;
+ }
+ #pricing-part .basic-part .basic-detail ul li:hover{
+   color:#a7a7a7 ;
+   transition:all linear .4s ;
+ }
+  .basic-part .basic-detail button{
+    padding:10px ;
+    margin-bottom:15px ;
+    color:#fff;
+    border:none;
+    background:#006616;
+    font-weight:bold;
+    border-radius:10px;
+  }
+  .basic-part .basic-detail button:hover{
+    color:#aaaaaa;
+    transition:all linear .4s ;
+  }
+#button-bar{
+    background:#8b0303 ;
+    position:relative ;
+    padding:40px ;
+  }
+#button-bar .pic-part .img-part{
+  position:absolute ;
+  right:0;
+  /* width:50px ;
+  height:50px ; */
+
+  }
+  #button-bar .pic-part .img-part img{
+     border-radius:50% ;
+  }
